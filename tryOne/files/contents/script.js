@@ -1,3 +1,4 @@
+  
 score = 0;
 cross = true;
 audio = new Audio('music.mp3');
@@ -43,3 +44,4 @@ setInterval(() => {
     tx = Math.abs(dx - ox);
     ty = Math.abs(dy - oy);
 })
+
